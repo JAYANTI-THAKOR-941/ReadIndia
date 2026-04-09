@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "name": "Jayanti Thakor",
+      "email": "jayantithakor941@gmail.com",
+      "password": "123@pipl",
+      "role": "user",
+      "id": "U2mH9Ew6aTE"
+    }
+  ],
+  "books": [
+    {
+      "name": "The Magic of Thinking Big",
+      "description": "First published in 1959, David J Schwartz's classic teachings are as powerful today as they were then",
+      "price": "1317",
+      "author": "David J",
+      "image": "https://m.media-amazon.com/images/I/81UZJqFG7VL._AC_UF1000,1000_QL80_.jpg",
+      "id": "s0W0oLhKJMo"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
