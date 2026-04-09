@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
+import './main.css'
 
 const Books = () => {
 
@@ -29,9 +30,14 @@ const Books = () => {
               <div className="book-card" key={b.id}>
                 <img src={b.image} alt="" />
                 <h3>{b.name}</h3>
-                <h3>{b.author}</h3>
-                <h3>{b.price}</h3>
-                <button onClick={()=>navigate(`/book/${b.id}`)}>View Details</button>
+                <p>{b.description}</p>
+                <p>{b.author}</p>
+               <div className="bottom">
+                 <p>Price:₹{b.price}</p>
+               <div className="btns">
+                 <button onClick={()=>navigate(`/book/${b.id}`)}>View Details</button>
+               </div>
+               </div>
               </div>
           ))
         }

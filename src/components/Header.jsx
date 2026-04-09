@@ -1,9 +1,12 @@
 import React from 'react'
 import { FaBook } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import './style.css';
 
 const Header = () => {
+
+  const navigate = useNavigate();
+
   return (
     <div className='header'>
       <div className="logo">
@@ -14,7 +17,7 @@ const Header = () => {
         <Link to="/books">Books</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
-        <button>Login</button>
+        <button onClick={()=>navigate('/login')}>Login</button>
       </div>
     </div>
   )

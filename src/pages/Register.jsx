@@ -40,6 +40,7 @@ const Register = () => {
   return (
     <div>
         <div className="input-group">
+            <h2>Register</h2>
             <input type="text" placeholder='Name' name='name' value={form.name} onChange={handleChange} />
             <input type="text" placeholder='Email' name='email' value={form.email}  onChange={handleChange} />
             <input type="text" placeholder='Password' name='password' value={form.password}  onChange={handleChange} />

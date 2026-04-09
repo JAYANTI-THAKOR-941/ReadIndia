@@ -6,16 +6,79 @@
       "password": "123@pipl",
       "role": "user",
       "id": "U2mH9Ew6aTE"
+    },
+    {
+      "name": "Jayanti Thakor",
+      "email": "jyantithakor941@gmail.com",
+      "password": "123@pipl",
+      "role": "user",
+      "id": "xB7LwYAgvkA"
     }
   ],
   "books": [
     {
       "name": "The Magic of Thinking Big",
-      "description": "First published in 1959, David J Schwartz's classic teachings are as powerful today as they were then",
+      "description": "First published in 1959, David J. Schwartz's classic teachings are as powerful today as they were then.",
       "price": "1317",
-      "author": "David J",
+      "author": "David J. Schwartz",
       "image": "https://m.media-amazon.com/images/I/81UZJqFG7VL._AC_UF1000,1000_QL80_.jpg",
       "id": "s0W0oLhKJMo"
+    },
+    {
+      "name": "The Power of Positive Thinking",
+      "description": "A practical guide to mastering problems and achieving a successful and happy life through positive thinking.",
+      "price": "950",
+      "author": "Norman Vincent Peale",
+      "image": "https://m.media-amazon.com/images/I/71tbalAHYCL._AC_UF1000,1000_QL80_.jpg",
+      "id": "b1X2Y3Z4A5"
+    },
+    {
+      "name": "You Can Win",
+      "description": "A step-by-step tool for top achievers to improve personality, confidence, and success mindset.",
+      "price": "850",
+      "author": "Shiv Khera",
+      "image": "https://rukminim2.flixcart.com/image/1500/1500/xif0q/regionalbooks/w/p/p/you-can-win-original-imahkbvpyw5qb5gp.jpeg",
+      "id": "c2X3Y4Z5B6"
+    },
+    {
+      "name": "The Power of Your Subconscious Mind",
+      "description": "Explains how the subconscious mind influences every aspect of life and how to use it effectively.",
+      "price": "700",
+      "author": "Joseph Murphy",
+      "image": "https://m.media-amazon.com/images/I/81s6DUyQCZL._AC_UF1000,1000_QL80_.jpg",
+      "id": "d3X4Y5Z6C7"
+    },
+    {
+      "name": "IKIGAI",
+      "description": "The Japanese secret to a long and happy life, focusing on finding purpose and balance.",
+      "price": "1200",
+      "author": "Hector Garcia",
+      "image": "https://m.media-amazon.com/images/I/81l3rZK4lnL._AC_UF1000,1000_QL80_.jpg",
+      "id": "e4X5Y6Z7D8"
+    },
+    {
+      "name": "Atomic Habits",
+      "description": "An easy and proven way to build good habits and break bad ones.",
+      "price": "1500",
+      "author": "James Clear",
+      "image": "https://m.media-amazon.com/images/I/91bYsX41DVL._AC_UF1000,1000_QL80_.jpg",
+      "id": "f5X6Y7Z8E9"
+    },
+    {
+      "name": "The 7 Habits of Highly Effective People",
+      "description": "Powerful lessons in personal change and effectiveness based on timeless principles.",
+      "price": "1400",
+      "author": "Stephen R. Covey",
+      "image": "https://m.media-amazon.com/images/I/81dQwQlmAXL._AC_UF1000,1000_QL80_.jpg",
+      "id": "g6X7Y8Z9F0"
+    },
+    {
+      "name": "You Are a Badass",
+      "description": "A motivational book to help you stop doubting your greatness and start living an awesome life.",
+      "price": "1100",
+      "author": "Jen Sincero",
+      "image": "https://rukminim2.flixcart.com/image/1500/1500/koenl3k0/regionalbooks/l/m/m/you-are-a-badass-how-to-stop-doubting-your-greatness-and-start-original-imag2vggfefazrbh.jpeg",
+      "id": "h7X8Y9Z0G1"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
